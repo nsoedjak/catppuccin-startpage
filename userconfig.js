@@ -17,14 +17,14 @@ const default_configuration = {
     format: "k:i p",
     icon_color: palette.maroon,
   },
-  // additionalClocks: [
-  //   {
-  //     label: "UA",
-  //     timezone: "Europe/Kyiv",
-  //     format: "h:i",
-  //     icon_color: palette.peach,
-  //   },
-  // ],
+  additionalClocks: [
+    {
+      label: "NYC",
+      timezone: "America/New_York",
+      format: "h:i",
+      icon_color: palette.peach,
+    },
+  ],
   search: {
     engines: {
       // p: ["https://www.perplexity.ai/search/?q=", "PerplexityAI"],
@@ -34,7 +34,7 @@ const default_configuration = {
     default: "g",
   },
   keybindings: {
-    "o": "search-bar",
+    "s": "search-bar",
   },
   disabled: [],
   localIcons: true,
@@ -44,7 +44,7 @@ const default_configuration = {
   tabs: [
     {
       name: "Nathan",
-      background_url: "src/img/banners/banner_14.gif",
+      background_url: "src/img/banners/banner_04.gif",
       categories: [
         // {
         //   name: "bookmarks",
@@ -68,13 +68,13 @@ const default_configuration = {
           links: [
             {
               name: "gmail",
-              url: "https://mail.google.com",
+              url: "https://mail.google.com/mail/u/1/#inbox",
               icon: "brand-gmail",
               icon_color: palette.green,
             },
             {
               name: "calendar",
-              url: "https://calendar.google.com",
+              url: "https://calendar.google.com/calendar/u/1/r",
               icon: "calendar-filled",
               icon_color: palette.peach,
             },
