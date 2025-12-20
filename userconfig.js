@@ -21,8 +21,8 @@ const default_configuration = {
     {
       label: "NYC",
       timezone: "America/New_York",
-      format: "h:i",
-      icon_color: palette.peach,
+      format: "k:i p",
+      icon_color: palette.blue,
     },
   ],
   search: {
@@ -44,7 +44,7 @@ const default_configuration = {
   tabs: [
     {
       name: "Nathan",
-      background_url: "src/img/banners/banner_04.gif",
+      background_url: "src/img/banners/banner_02.gif",
       categories: [
         // {
         //   name: "bookmarks",
