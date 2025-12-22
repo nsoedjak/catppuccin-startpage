@@ -94,7 +94,7 @@ const default_configuration = {
           ],
         },
         {
-          name: "media",
+          name: "fun",
           links: [
             {
               name: "youtube",
@@ -103,10 +103,22 @@ const default_configuration = {
               icon_color: palette.green,
             },
             {
+              name: "x",
+              url: "https://www.x.com",
+              icon: "brand-x",
+              icon_color: palette.peach,
+            },
+            {
+              name: "reddit",
+              url: "https://www.reddit.com",
+              icon: "brand-reddit",
+              icon_color: palette.red,
+            },
+            {
               name: "netflix",
               url: "https://www.netflix.com",
               icon: "brand-netflix",
-              icon_color: palette.peach,
+              icon_color: palette.blue,
             },
           ],
         },
