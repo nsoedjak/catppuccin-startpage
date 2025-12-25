@@ -27,7 +27,7 @@ const default_configuration = {
   ],
   search: {
     engines: {
-      // p: ["https://www.perplexity.ai/search/?q=", "PerplexityAI"],
+      p: ["https://www.perplexity.ai/search/?q=", "PerplexityAI"],
       // d: ["https://duckduckgo.com/?q=", "DuckDuckGo"],
       g: ["https://google.com/search?q=", "Google"],
     },
@@ -39,30 +39,36 @@ const default_configuration = {
   disabled: [],
   localIcons: true,
   localFonts: true,
-  fastlink: "https://chatgpt.com/",
+  fastlink: "https://www.perplexity.ai",
   openLastVisitedTab: true,
   tabs: [
     {
       name: "Nathan",
       background_url: "src/img/banners/banner_02.gif",
       categories: [
-        // {
-        //   name: "bookmarks",
-        //   links: [
-        //     {
-        //       name: "raindrop",
-        //       url: "https://app.raindrop.io",
-        //       icon: "droplet-bolt",
-        //       icon_color: palette.green,
-        //     },
-        //     {
-        //       name: "musicForProgramming();",
-        //       url: "https://musicforprogramming.net",
-        //       icon: "binary-tree",
-        //       icon_color: palette.peach,
-        //     },
-        //   ],
-        // },
+        {
+          name: "llm",
+          links: [
+            {
+              name: "perplexity",
+              url: "https://www.perplexity.ai",
+              icon: "bolt",
+              icon_color: palette.green,
+            },
+            {
+              name: "chatgpt",
+              url: "https://chatgpt.com",
+              icon: "brand-openai",
+              icon_color: palette.blue,
+            },
+            {
+              name: "gemini",
+              url: "https://gemini.google.com",
+              icon: "brand-google",
+              icon_color: palette.peach,
+            },
+          ],
+        },
         {
           name: "workspace",
           links: [
@@ -76,7 +82,7 @@ const default_configuration = {
               name: "calendar",
               url: "https://calendar.google.com/calendar/u/1/r",
               icon: "calendar-filled",
-              icon_color: palette.peach,
+              icon_color: palette.blue,
             },
             // {
             //   name: "sheets",
@@ -84,13 +90,13 @@ const default_configuration = {
             //   icon: "table",
             //   icon_color: palette.red,
             // },
-            {
-              name: "drive",
-              url: "https://drive.google.com/drive/home",
-              icon: "brand-google-drive",
-              // icon_color: palette.blue,
-              icon_color: palette.red,
-            },
+            // {
+            //   name: "drive",
+            //   url: "https://drive.google.com/drive/home",
+            //   icon: "brand-google-drive",
+            //   // icon_color: palette.blue,
+            //   icon_color: palette.blue,
+            // },
           ],
         },
         {
@@ -106,19 +112,19 @@ const default_configuration = {
               name: "x",
               url: "https://www.x.com",
               icon: "brand-x",
-              icon_color: palette.peach,
+              icon_color: palette.blue,
             },
             {
               name: "reddit",
               url: "https://www.reddit.com",
               icon: "brand-reddit",
-              icon_color: palette.red,
+              icon_color: palette.peach,
             },
             {
               name: "netflix",
               url: "https://www.netflix.com",
               icon: "brand-netflix",
-              icon_color: palette.blue,
+              icon_color: palette.red,
             },
           ],
         },
