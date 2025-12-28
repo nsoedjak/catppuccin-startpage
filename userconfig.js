@@ -85,10 +85,16 @@ const default_configuration = {
               icon_color: palette.blue,
             },
             {
+              name: "overleaf",
+              url: "https://overleaf.com",
+              icon: "leaf",
+              icon_color: palette.red,
+            },
+            {
               name: "calendar",
               url: "https://calendar.google.com/calendar/u/1/r",
               icon: "calendar-filled",
-              icon_color: palette.red,
+              icon_color: palette.peach,
             },
             // {
             //   name: "sheets",
